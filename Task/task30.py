@@ -8,8 +8,8 @@ print("Второй набор чисел:", second_list)
 first_set = set(first_list)
 second_set = set(second_list)
 
-print(first_set)
-print(second_set)
+# print(first_set)
+# print(second_set)
 
 set = sorted(first_set.intersection(second_set))
 print("В обоих списках встречаются числа:", set)
