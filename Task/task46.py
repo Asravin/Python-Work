@@ -8,7 +8,7 @@ def same(characteristic, objects):
             return False
         return True
 
-value = [int(input("Введите элементы списка: ")) for i in range(int(input("Введите количество объектов в списке: ")))]
+value = [int(input("Введите элементы списка: ")) for i in range(int(input("Введите количество элементов списка:")))]
 if same(lambda x: x % 2, value):
     print("same")
 else:
